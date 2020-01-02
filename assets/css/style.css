@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(192, 152, 192);
+    
+}
+img{
+    position: center;
+}
+
+
+/* styling the ID elements */
+
+#layerbar{
+    padding:1.3rem;
+    height: 1.8rem;
+    background-color: #21003F;
+}
+
+#navbar{
+    background-color: white;
+}
+
+#number{
+    margin-right:2.2rem;
+   
+}
+
+#carousel{
+    margin-top: 0rem;
+    width: 100%;
+    height: 10.5rem;
+}
+
+#sampleContainer{
+    background-color: rgb(192, 152, 192);
+    border-radius: 1.2rem;
+    color:black;
+    padding:3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+
+#sampleRow{
+    background-color: white;
+    padding:2rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    box-shadow: 6px 6px 0px 1px rgba(0, 0, 255, .2);
+}
+
+
+
+
+#planet{
+    margin-top: 1.5rem;
+    width:7rem;
+   
+    
+    border-radius: 5rem;
+    z-index:2;
+}
+
+#background-planet{
+    background-color: #F58FB1;
+    border-radius: 6rem;
+}
+
+#fifty{
+    color:red;
+}
+
+.modal{
+    border-radius: 1.2rem;
+    color:black;
+    
+    box-shadow: 9px 10px 0px -3px rgba(0, 0, 255, .2);
+}
+
+/* editing materialize css */
+
+.navbar-fixed {
+    position: relative;
+    height: 35px;
+    z-index: 997;
+    
+}
+
+
+.modal{
+    margin-top: 10rem;
+}
+
+.sidenav {
+    opacity:0.97;
+}
+
+.sidenav li>a {
+    margin-top:2rem;
+    color: white;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 70px;
+    padding: 0 32px;
+}
+
+
+
+/* label focus color */
+.input-field input:focus + label {
+    color: #C256FF !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid #C256FF !important;
+    box-shadow: 0 1px 0 0 #C256FF !important
+  }
+
+  .input-field .prefix.active {
+      color: #C256FF
+  }
+
+  .sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 0vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 997;
+    display: none
+
+
+  textarea.materialize-textarea:focus:not([readonly])+label {
+      color: #C256FF
+  }
+  
+  textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #C256FF;
+    box-shadow: 0 1px 0 0 #C256FF;
+  }
+ 
+  .pink.lighten-3 {
+    background-color: #f48fb1 !important;
+    opacity: 0.9;
+  }
