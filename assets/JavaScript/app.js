@@ -3,6 +3,7 @@
     
     $('.fixed-action-btn').floatingActionButton();
     $('.sidenav').sidenav();
+    $('.parallax').parallax();
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
       indicators: true
